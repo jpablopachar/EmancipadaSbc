@@ -1,0 +1,26 @@
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+}
+
+.autor, .libro, .personaje { cursor: pointer; }
+
+.autor .card-footer, .libro .card-footer {
+  border-color: #fff;
+}
+
+.personaje .card-footer { border-color: #fff; }
+
+@media (min-width: 768px) {
+  .autor, .libro, .personaje {
+    top: 30vh;
+  }
+
+  .personajes {
+    top: 10vh;
+  }
+
+  .botonVolver {
+    margin-top: 33px;
+  }
+}

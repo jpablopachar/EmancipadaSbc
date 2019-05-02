@@ -1,0 +1,340 @@
+[ {
+  "@id" : "http://example.com/resources/CreacionesDeLenguaje",
+  "@type" : [ "http://purl.org/spar/fabioInstructionalWork" ],
+  "http://dbpedia.org/ontology/genre" : [ {
+    "@id" : "http://dbpedia.org/page/Book"
+  } ],
+  "http://dbpedia.org/page/writer" : [ {
+    "@id" : "http://example.com/resources/MiguelRiofrio"
+  } ],
+  "http://example.com/resources/placeWriting" : [ {
+    "@id" : "http://dbpedia.org/page/Ecuador"
+  } ],
+  "http://lod.nl.go.kr/ontology/publishedIn" : [ {
+    "@id" : "http://dbpedia.org/page/Peru"
+  } ],
+  "http://purl.org/dc/terms/language" : [ {
+    "@id" : "http://dbpedia.org/page/Spanish_language"
+  } ]
+}, {
+  "@id" : "http://example.com/resources/Cura",
+  "@type" : [ "http://sparql.cwrc.ca/ontologies/cwrc#FictionalPerson" ]
+}, {
+  "@id" : "http://example.com/resources/DelirioDeBolivar",
+  "@type" : [ "http://purl.org/spar/fabioNovel" ],
+  "http://dbpedia.org/ontology/genre" : [ {
+    "@id" : "http://dbpedia.org/page/Novel"
+  } ],
+  "http://dbpedia.org/page/writer" : [ {
+    "@id" : "http://example.com/resources/MiguelRiofrio"
+  } ],
+  "http://example.com/resources/placeWriting" : [ {
+    "@id" : "http://dbpedia.org/page/Ecuador"
+  } ],
+  "http://lod.nl.go.kr/ontology/publishedIn" : [ {
+    "@id" : "http://dbpedia.org/page/Ecuador"
+  } ],
+  "http://purl.org/dc/terms/language" : [ {
+    "@id" : "http://dbpedia.org/page/Spanish_language"
+  } ]
+}, {
+  "@id" : "http://example.com/resources/DesarolloEmancipada",
+  "@type" : [ "http://purl.org/NET/c4dm/event.owl#Event" ],
+  "http://purl.org/NET/c4dm/event.owl#place" : [ {
+    "@id" : "http://dbpedia.org/page/Loja"
+  } ],
+  "http://purl.org/NET/c4dm/event.owl#year" : [ {
+    "@value" : "1800"
+  } ]
+}, {
+  "@id" : "http://example.com/resources/DonAnselmo",
+  "@type" : [ "http://sparql.cwrc.ca/ontologies/cwrc#FictionalPerson" ],
+  "http://dati.cdec.it/lod/shoah/widowerOf" : [ {
+    "@id" : "http://example.com/resources/Rosaura"
+  } ],
+  "http://xmlns.com/foaf/0.1/lastName" : [ {
+    "@value" : "Aguirre"
+  }, {
+    "@value" : "Zuñiga"
+  } ]
+}, {
+  "@id" : "http://example.com/resources/DonPedro",
+  "@type" : [ "http://sparql.cwrc.ca/ontologies/cwrc#FictionalPerson" ],
+  "http://xmlns.com/foaf/0.1/lastName" : [ {
+    "@value" : "Mendoza"
+  } ]
+}, {
+  "@id" : "http://example.com/resources/Eduardo",
+  "@type" : [ "http://sparql.cwrc.ca/ontologies/cwrc#FictionalPerson" ],
+  "http://observedchange.com/tisc/ns/#hasHeight" : [ {
+    "@value" : "Media"
+  } ],
+  "http://rdaregistry.info/Elements/u/placeOfResidence" : [ {
+    "@id" : "http://dbpedia.org/page/Quito"
+  } ],
+  "http://rdf.muninn-project.org/ontologies/appearances#hasAppearance" : [ {
+    "@value" : "regulares"
+  } ],
+  "http://xmlns.com/foaf/0.1/lastName" : [ {
+    "@value" : "Ramirez"
+  } ]
+}, {
+  "@id" : "http://example.com/resources/Emancipada",
+  "@type" : [ "http://purl.org/spar/fabioNovel" ],
+  "http://dbpedia.org/ontology/abstract" : [ {
+    "@value" : "Se trata de un chica en el siglo XIX que decide emanciparse de su padre"
+  } ],
+  "http://dbpedia.org/ontology/genre" : [ {
+    "@id" : "http://dbpedia.org/page/Novel"
+  } ],
+  "http://dbpedia.org/page/writer" : [ {
+    "@id" : "http://example.com/resources/MiguelRiofrio"
+  } ],
+  "http://example.com/resources/escritoEn" : [ {
+    "@id" : "http://example.com/resources/TiempoCronologico"
+  } ],
+  "http://example.com/resources/hasSeason" : [ {
+    "@id" : "http://example.com/resources/TiempoHistorico"
+  }, {
+    "@id" : "http://example.com/resources/TiempoAmbiental"
+  }, {
+    "@id" : "http://example.com/resources/TiempoGramatical"
+  } ],
+  "http://example.com/resources/placeWriting" : [ {
+    "@id" : "http://dbpedia.org/page/Ecuador"
+  } ],
+  "http://inference-web.org/2.0/pml-provenance.owl#hasPublicationDateTime" : [ {
+    "@value" : "1863"
+  } ],
+  "http://lod.nl.go.kr/ontology/publishedIn" : [ {
+    "@id" : "http://dbpedia.org/page/Ecuador"
+  } ],
+  "http://lsdis.cs.uga.edu/projects/semdis/opus#chapter" : [ {
+    "@value" : "2"
+  } ],
+  "http://ns.nature.com/terms/pages" : [ {
+    "@value" : "149"
+  } ],
+  "http://purl.org/dc/terms/language" : [ {
+    "@id" : "http://dbpedia.org/page/Spanish_language"
+  } ],
+  "http://vocab.deri.ie/void#vocabulary" : [ {
+    "@id" : "http://example.com/resources/Privativa"
+  }, {
+    "@id" : "http://example.com/resources/Desdeñado"
+  }, {
+    "@id" : "http://example.com/resources/Morbidez"
+  }, {
+    "@id" : "http://example.com/resources/Exhalacion"
+  }, {
+    "@id" : "http://example.com/resources/Voluptuosidad"
+  }, {
+    "@id" : "http://example.com/resources/Teson"
+  }, {
+    "@id" : "http://example.com/resources/Agreste"
+  }, {
+    "@id" : "http://example.com/resources/Acequias"
+  }, {
+    "@id" : "http://example.com/resources/Alquerias"
+  }, {
+    "@id" : "http://example.com/resources/Truhanescos"
+  }, {
+    "@id" : "http://example.com/resources/Miserere"
+  }, {
+    "@id" : "http://example.com/resources/Enjuto"
+  }, {
+    "@id" : "http://example.com/resources/Prolijidad"
+  }, {
+    "@id" : "http://example.com/resources/Melindres"
+  }, {
+    "@id" : "http://example.com/resources/Reciproco"
+  }, {
+    "@id" : "http://example.com/resources/Antifona"
+  } ],
+  "https://w3id.org/BCI-ontology#hasScene" : [ {
+    "@id" : "http://example.com/resources/Malacatos"
+  } ],
+  "https://w3id.org/i40/sto#published" : [ {
+    "@id" : "http://example.com/resources/LaUnion"
+  } ],
+  "https://www.ebu.ch/metadata/ontologies/ebucore/index.html#hAsCharacter" : [ {
+    "@id" : "http://example.com/resources/Eduardo"
+  }, {
+    "@id" : "http://example.com/resources/Rosaura"
+  }, {
+    "@id" : "http://example.com/resources/Madre"
+  }, {
+    "@id" : "http://example.com/resources/Padre"
+  }, {
+    "@id" : "http://example.com/resources/DonPedro"
+  }, {
+    "@id" : "http://example.com/resources/Cura"
+  }, {
+    "@id" : "http://example.com/resources/LosCriados"
+  }, {
+    "@id" : "http://example.com/resources/DonAnselmo"
+  } ],
+  "https://www.ebu.ch/metadata/ontologies/ebucore/index.html#hasKeyword" : [ {
+    "@value" : "Libertad"
+  } ]
+}, {
+  "@id" : "http://example.com/resources/LosCriados",
+  "@type" : [ "http://sparql.cwrc.ca/ontologies/cwrc#FictionalPerson" ]
+}, {
+  "@id" : "http://example.com/resources/M",
+  "http://purl.org/dc/terms/isPartOf" : [ {
+    "@id" : "http://dbpedia.org/page/Ecuador"
+  } ]
+}, {
+  "@id" : "http://example.com/resources/Madre",
+  "@type" : [ "http://sparql.cwrc.ca/ontologies/cwrc#FictionalPerson" ]
+}, {
+  "@id" : "http://example.com/resources/Maria",
+  "@type" : [ "http://purl.org/spar/fabioNovel" ],
+  "http://dbpedia.org/ontology/genre" : [ {
+    "@id" : "http://dbpedia.org/page/Novel"
+  } ],
+  "http://dbpedia.org/page/writer" : [ {
+    "@id" : "http://example.com/resources/MiguelRiofrio"
+  } ],
+  "http://example.com/resources/placeWriting" : [ {
+    "@id" : "http://dbpedia.org/page/Ecuador"
+  } ],
+  "http://lod.nl.go.kr/ontology/publishedIn" : [ {
+    "@id" : "http://dbpedia.org/page/Ecuador"
+  } ],
+  "http://purl.org/dc/terms/language" : [ {
+    "@id" : "http://dbpedia.org/page/Spanish_language"
+  } ]
+}, {
+  "@id" : "http://example.com/resources/MiguelRiofrio",
+  "http://purl.org/spar/deo/contribution" : [ {
+    "@id" : "http://example.com/resources/Maria"
+  }, {
+    "@id" : "http://example.com/resources/NicaYacu"
+  }, {
+    "@id" : "http://example.com/resources/DelirioDeBolivar"
+  }, {
+    "@id" : "http://example.com/resources/CreacionesDeLenguaje"
+  }, {
+    "@id" : "http://example.com/resources/Emancipada"
+  } ],
+  "http://vocab.org/bio/#Birth" : [ {
+    "@id" : "http://example.com/resources/NacimientoMiguelRiofrio"
+  } ],
+  "http://vocab.org/bio/#Death" : [ {
+    "@id" : "http://example.com/resources/MuerteMiguelRiofrio"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://dbpedia.org/page/Miguel_Riofrio"
+  } ],
+  "https://d-nb.info/standards/elementset/gnd#professionOrOccupation" : [ {
+    "@id" : "http://dbpedia.org/page/writer"
+  }, {
+    "@id" : "http://dbpedia.org/page/politician"
+  }, {
+    "@id" : "http://dbpedia.org/page/lawyer"
+  }, {
+    "@id" : "http://dbpedia.org/page/professor"
+  }, {
+    "@id" : "http://dbpedia.org/page/poet"
+  }, {
+    "@id" : "http://dbpedia.org/page/journalist"
+  }, {
+    "@id" : "http://dbpedia.org/page/ambassador"
+  } ]
+}, {
+  "@id" : "http://example.com/resources/MuerteMiguelRiofrio",
+  "http://purl.org/dc/elements/1.1/date" : [ {
+    "@value" : "11 de octubre de 1879"
+  } ],
+  "http://vocab.org/bio/#place" : [ {
+    "@id" : "http://dbpedia.org/page/Loja_Province"
+  } ]
+}, {
+  "@id" : "http://example.com/resources/NacimientoMiguel",
+  "http://purl.org/dc/elements/1.1/date" : [ {
+    "@value" : "7 de septiembre de 1822"
+  } ],
+  "http://vocab.org/bio/#place" : [ {
+    "@id" : "http://dbpedia.org/page/Loja_Province"
+  } ],
+  "http://vocab.org/bio/#principal" : [ {
+    "@id" : "http://dbpedia.org/page/Miguel_Riofrio"
+  } ]
+}, {
+  "@id" : "http://example.com/resources/NicaYacu",
+  "@type" : [ "http://purl.org/spar/fabioNovel" ],
+  "http://dbpedia.org/ontology/genre" : [ {
+    "@id" : "http://dbpedia.org/page/Novel"
+  } ],
+  "http://dbpedia.org/page/writer" : [ {
+    "@id" : "http://example.com/resources/MiguelRiofrio"
+  } ],
+  "http://example.com/resources/placeWriting" : [ {
+    "@id" : "http://dbpedia.org/page/Ecuador"
+  } ],
+  "http://lod.nl.go.kr/ontology/publishedIn" : [ {
+    "@id" : "http://dbpedia.org/page/Ecuador"
+  } ],
+  "http://purl.org/dc/terms/language" : [ {
+    "@id" : "http://dbpedia.org/page/Spanish_language"
+  } ]
+}, {
+  "@id" : "http://example.com/resources/Padre",
+  "@type" : [ "http://sparql.cwrc.ca/ontologies/cwrc#FictionalPerson" ]
+}, {
+  "@id" : "http://example.com/resources/Parte1",
+  "http://lsdis.cs.uga.edu/projects/semdis/opus#chapter" : [ {
+    "@value" : "4"
+  } ],
+  "http://lsdis.cs.uga.edu/projects/semdis/opus#chapter_of" : [ {
+    "@id" : "http://example.com/resources/Emancipada"
+  } ]
+}, {
+  "@id" : "http://example.com/resources/Parte2",
+  "http://lsdis.cs.uga.edu/projects/semdis/opus#chapter" : [ {
+    "@value" : "3"
+  } ],
+  "http://lsdis.cs.uga.edu/projects/semdis/opus#chapter_of" : [ {
+    "@id" : "http://example.com/resources/Emancipada"
+  } ]
+}, {
+  "@id" : "http://example.com/resources/Rosaura",
+  "@type" : [ "http://sparql.cwrc.ca/ontologies/cwrc#FictionalPerson" ],
+  "http://dbpedia.org/ontology/hairColor" : [ {
+    "@value" : "castaño oscuro"
+  } ],
+  "http://dbpedia.org/ontology/spouse" : [ {
+    "@id" : "http://example.com/resources/DonAnselmo"
+  } ],
+  "http://observedchange.com/tisc/ns/#hasHeight" : [ {
+    "@value" : "Alta"
+  } ],
+  "http://rdf.muninn-project.org/ontologies/appearances#hasAppearance" : [ {
+    "@value" : "fina"
+  } ],
+  "http://xmlns.com/foaf/0.1/lastName" : [ {
+    "@value" : "Mendoza"
+  } ]
+}, {
+  "@id" : "http://example.com/resources/TiempoAmbiental",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "El ambiente de la historia es en pleno verano"
+  } ]
+}, {
+  "@id" : "http://example.com/resources/TiempoCronologico",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "La novela relata que los sucesos ocurren en 1841"
+  } ]
+}, {
+  "@id" : "http://example.com/resources/TiempoGramatical",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "La historia se relata en tercera persona"
+  } ]
+}, {
+  "@id" : "http://example.com/resources/TiempoHistorico",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "La obra fue escrita en la Apoca del Romanticismo, en el año de 1863"
+  } ]
+} ]

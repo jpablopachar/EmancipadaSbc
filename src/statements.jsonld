@@ -1,0 +1,250 @@
+[ {
+  "@id" : "dbo:Novel",
+  "@type" : [ "frbr:LiteraryWork" ]
+}, {
+  "@id" : "dbpedia:Miguel_Riofrío",
+  "@type" : [ "dbo:Person", "yago:WikicatPeopleFromLoja,Ecuador", "yago:WikicatSpanish-languageWriters", "yago:Adult109605289", "yago:CausalAgent100007347", "yago:Communicator109610660", "yago:Lawyer110249950", "yago:Leader109623038", "yago:LivingThing100004258", "yago:Object100002684", "yago:Organism100004475", "yago:Person100007846", "yago:PhysicalEntity100001930", "yago:Poet110444194", "yago:Politician110450303", "yago:Professional110480253", "yago:Whole100003553", "yago:Writer110794014", "yago:YagoLegalActor", "yago:YagoLegalActorGeo", "yago:WikicatEcuadorianLawyers", "yago:WikicatEcuadorianPoets", "yago:WikicatEcuadorianPoliticians", "yago:WikicatEcuadorianWriters" ],
+  "bio:father" : [ {
+    "@value" : "José María Riofrío"
+  } ],
+  "bio:mother" : [ {
+    "@value" : "Custodia Pedreros"
+  } ],
+  "dbo:birthDate" : [ {
+    "@value" : "1822-9-7"
+  } ],
+  "dbo:deathDate" : [ {
+    "@value" : "1879-10-11"
+  } ],
+  "dct:description" : [ {
+    "@value" : "Ecuadorian writer and journalist (en)"
+  } ],
+  "dct:subject" : [ {
+    "@id" : "dbc:Ecuadorian_poets"
+  }, {
+    "@id" : "dbc:Ecuadorian_male_writers"
+  }, {
+    "@id" : "dbc:1822_births"
+  }, {
+    "@id" : "dbc:1879_deaths"
+  }, {
+    "@id" : "dbc:19th-century_male_writers"
+  }, {
+    "@id" : "dbc:19th-century_poets"
+  }, {
+    "@id" : "dbc:People_from_Loja,_Ecuador"
+  } ],
+  "http://schema.org/birthPlace" : [ {
+    "@id" : "dbr:Loja"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "dbr:Miguel_Riofrio"
+  }, {
+    "@id" : "dbpedia:Miguel_Riofrio"
+  }, {
+    "@id" : "http://viaf.org/viaf/61625963"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "male"
+  } ],
+  "http://xmlns.com/foaf/0.1/givenName" : [ {
+    "@value" : "Miguel"
+  } ],
+  "http://xmlns.com/foaf/0.1/surname" : [ {
+    "@value" : "Riofrío"
+  } ],
+  "scip:personFullname" : [ {
+    "@value" : "Miguel Riofrío Sánchez"
+  } ]
+}, {
+  "@id" : "dbr:Ecuador",
+  "dbpedia:areaTotal" : [ {
+    "@value" : "283.561 km²"
+  } ],
+  "dbpedia:eastPlace" : [ {
+    "@id" : "dbr:Perú"
+  } ],
+  "dbpedia:northPlace" : [ {
+    "@id" : "dbr:Colombia"
+  } ],
+  "dbpedia:southPlace" : [ {
+    "@id" : "dbr:Perú"
+  } ],
+  "dbpedia:westPlace" : [ {
+    "@id" : "http://schema.org/OceanBodyOfWater"
+  } ],
+  "edm:country" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Americano"
+  } ]
+}, {
+  "@id" : "dbr:Hobbies",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@value" : "pintar"
+  }, {
+    "@value" : "escribir"
+  }, {
+    "@value" : "leer"
+  } ]
+}, {
+  "@id" : "dbr:Loja",
+  "@type" : [ "place:Province" ],
+  "place:province" : [ {
+    "@id" : "dbr:Ecuador"
+  } ]
+}, {
+  "@id" : "dbr:Personajes",
+  "dbpedia:mainCharacter" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Rosaura"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Eduardo"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/TenientePolitico"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Criados"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Juez"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/DonPedroDeMendoza"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/PadreMora"
+  }, {
+    "@id" : "foaf:SimónBolívar"
+  }, {
+    "@id" : "foaf:TenientePolítico"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/El_Sacerdote"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Don_Anselmo_de_Aguirre"
+  } ]
+}, {
+  "@id" : "foaf:SimónBolívar",
+  "@type" : [ "dbo:Person" ],
+  "dbpedia:partner" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/PadreMora"
+  } ]
+}, {
+  "@id" : "foaf:TenientePolítico",
+  "@type" : [ "dbo:Person" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Criados",
+  "@type" : [ "dbo:Person" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/DonPedroDeMendoza",
+  "@type" : [ "dbo:Person" ],
+  "dct:description" : [ {
+    "@value" : "Padre de Rosaura, por ambición y codicia obliga a Rosaura a casarse"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Don_Anselmo_de_Aguirre",
+  "@type" : [ "dbo:Person" ],
+  "dct:description" : [ {
+    "@value" : "Campesino, terrateniente, esposo que don Pedro y el cura escogieron para Rosaura"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Eduardo",
+  "@type" : [ "dbo:Person", "dbpedia:Doctor", "dbpedia:Artist" ],
+  "cbo:PhysicalAttribute" : [ {
+    "@value" : "barbaArqueada"
+  }, {
+    "@value" : "contacciónEnEntrecejo"
+  }, {
+    "@value" : "cuelloLevementeAgobiado"
+  } ],
+  "dct:description" : [ {
+    "@value" : "Eterno amor de Rosaura quien luego se convierte en sacerdote"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@value" : "aldeano"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/El_Sacerdote",
+  "@type" : [ "dbo:Person" ],
+  "dct:description" : [ {
+    "@value" : "Prototipo de la corrupción de los valores humanos, solo le interesaba estar en el poder sin importarle el daño que pudiera causar"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Juez",
+  "@type" : [ "dbo:Person" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/PadreMora",
+  "@type" : [ "dbo:Person" ],
+  "dbpedia:partner" : [ {
+    "@id" : "foaf:SimónBolívar"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Rosaura",
+  "@type" : [ "dbo:Person" ],
+  "acl:Read" : [ {
+    "@id" : "bdr:DesiderioYElecto"
+  }, {
+    "@id" : "bdr:LosSermonesDelPadreBarcia"
+  }, {
+    "@id" : "bdr:LosCánonesPenitenciales"
+  } ],
+  "cbo:PhysicalAttribute" : [ {
+    "@value" : "tezFresca"
+  }, {
+    "@value" : "tezDelicada"
+  }, {
+    "@value" : "cejasNegras"
+  }, {
+    "@value" : "pupilasCastañoOscuro"
+  }, {
+    "@value" : "cabelloCastañoOscuro"
+  }, {
+    "@value" : "ondulaciónLabioInferior"
+  }, {
+    "@value" : "atrevidoPerfilDeSuNariz"
+  } ],
+  "cwrc:hasDaughter" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/DonPedroDeMendoza"
+  } ],
+  "dct:description" : [ {
+    "@value" : "Hija de don Pedro, sujeta a los capricho de su padre se casa obligada"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "female"
+  } ],
+  "sbcp:have" : [ {
+    "@id" : "dbr:Hobbies"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/TenientePolitico",
+  "@type" : [ "dbo:Person" ]
+}, {
+  "@id" : "sbc:Emancipada",
+  "book:owns" : [ {
+    "@id" : "dbpedia:Miguel_Riofrío"
+  } ],
+  "book:type" : [ {
+    "@id" : "dbo:Novel"
+  } ],
+  "dbp:nationality" : [ {
+    "@value" : "ecuatoriana"
+  } ],
+  "dce:language" : [ {
+    "@value" : "español"
+  } ],
+  "http://ogp.me/ns#description" : [ {
+    "@value" : "Mujer que se ha liberado de una o más personas respecto de un poder, una autoridad, una tutela o cualquier otro tipo de subordinación o dependencia"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "La Emancipada"
+  } ],
+  "nlon:publishedIn" : [ {
+    "@value" : "1863"
+  } ],
+  "sbcp:have" : [ {
+    "@value" : "Autor"
+  }, {
+    "@id" : "dbr:Personajes"
+  } ],
+  "tl:start" : [ {
+    "@value" : "1846"
+  } ]
+}, {
+  "@id" : "sbcprin:Obra",
+  "http://purl.org/dc/terms/title" : [ {
+    "@id" : "sbc:Emancipada"
+  } ]
+} ]

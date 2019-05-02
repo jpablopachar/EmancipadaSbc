@@ -1,0 +1,178 @@
+<% include partials/header %>
+  <% for(let i=0; i < datos.length; i++) { %>
+    <div style="height: 100vh">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center animated bounceInLeft delay-1s"><%= datos[i].name %></h1>
+            <hr class="bg-warning">
+          </div>
+        </div>
+        <div class="row d-flex justify-content-around">
+            <div class="col-md-3 animated bounceInDown bg-warning autor" data-toggle="modal" data-target="#exampleModalCenter">
+              <div class="card w-50 mx-auto text-center border-0 rounded-0">
+                <div class="card-body bg-warning">
+                  <div>
+                    <i class="fas fa-user-tie fa-5x"></i>
+                  </div>
+                </div>
+                <div class="card-footer bg-warning rounded-0">Autor</div>
+              </div>
+            </div>
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content w-75">
+                  <div class="modal-header bg-warning rounded-0">
+                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-12">
+                        <img src="/images/miguelriofio.jpg" alt="" width="100px" class="d-flex mx-auto">
+                      </div>
+                      <div class="col-12 mt-3">
+                        <ul class="list-group list-group-flush rounded-0">
+                          <li class="list-group-item">
+                            <span class="font-weight-bold">@type</span>
+                            <span class="font-weight-light">Person</span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold">givenName</span>
+                            <span class="font-weight-light"><%= datos[i].author.givenName %></span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold">familyName</span>
+                            <span class="font-weight-light"><%= datos[i].author.familyName %></span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold">birthDate</span>
+                            <span class="font-weight-light"><%= datos[i].author.birthDate %></span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold">nationality</span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold ml-3">@type</span>
+                            <span class="font-weight-light">Country</span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold ml-3">name</span>
+                            <span class="font-weight-light"><%= datos[i].author.nationality %></span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 animated bounceInDown delay-1s bg-success libro" data-toggle="modal" data-target="#exampleModalCenter2">
+              <div class="card w-50 mx-auto text-center border-0 rounded-0">
+                <div class="card-body bg-success">
+                  <div>
+                    <i class="fas fa-book-open fa-5x"></i>
+                  </div>
+                </div>
+                <div class="card-footer bg-success rounded-0">Libro</div>
+              </div>
+            </div>
+            <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle2" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content w-75">
+                  <div class="modal-header bg-success rounded-0">
+                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-12">
+                        <ul class="list-group list-group-flush rounded-0">
+                          <li class="list-group-item">
+                            <span class="font-weight-bold">@type</span>
+                            <span class="font-weight-light">Book</span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold">numberOfPages</span>
+                            <span class="font-weight-light"><%= datos[i].numberOfPages %></span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold">datePublished</span>
+                            <span class="font-weight-light"><%= datos[i].datePublished %></span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold">genre</span>
+                            <span class="font-weight-light"><%= datos[i].genre %></span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold">inLanguage</span>
+                            <span class="font-weight-light"><%= datos[i].inLanguage %></span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold">about</span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold ml-3">@type</span>
+                            <span class="font-weight-light">Thing</span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold ml-3">name</span>
+                            <span class="font-weight-light"><%= datos[i].about %></span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold">publisher</span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold ml-3">@type</span>
+                            <span class="font-weight-light">Organization</span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold ml-3">legalName</span>
+                            <span class="font-weight-light"><%= datos[i].publisher.legalName %></span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold">hasPart</span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold ml-3">@type</span>
+                            <span class="font-weight-light">CreativeWork</span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold ml-3">name</span>
+                            <span class="font-weight-light"><%= datos[i].hasPart[0].name %></span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold">hasPart</span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold ml-3">@type</span>
+                            <span class="font-weight-light">CreativeWork</span>
+                          </li>
+                          <li class="list-group-item">
+                            <span class="font-weight-bold ml-3">name</span>
+                            <span class="font-weight-light"><%= datos[i].hasPart[1].name %></span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 animated bounceInDown delay-2s bg-primary personaje" id="clickPersonaje">
+              <div class="card w-50 mx-auto text-center border-0 rounded-0">
+                <div class="card-body bg-primary">
+                  <div>
+                    <i class="text-white fas fa-users fa-5x"></i>
+                  </div>
+                </div>
+                <div class="card-footer bg-primary text-white rounded-0">Personajes</div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  <% } %>
+<% include partials/footer%>
